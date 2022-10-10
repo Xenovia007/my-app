@@ -1,4 +1,5 @@
 import React,{ Component } from 'react'
+import './App.css';
 
 class Form extends Component{
 constructor(props){
@@ -33,6 +34,11 @@ handleChange(event){
 render(){
 	return(
 	<form onSubmit={this.handleSubmit}>
+		<div>
+           <img src="https://media.discordapp.net/attachments/1015594727774629900/1018467875905871963/caption.gif" width="300" height="100"/>
+        </div>
+		<div><h1>ลงข้อมูล</h1>
+		</div>	
 		<div>
 		<label htmlFor='ชื่อ'>ชื่อ</label>
 		<input
